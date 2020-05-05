@@ -1,4 +1,5 @@
 #pragma once
+#include "common.h"
 
 /*
 1009. Complement of Base 10 Integer (https://leetcode.com/problems/complement-of-base-10-integer/)
@@ -26,3 +27,21 @@ Note:
 0 <= N < 10^9
 This question is the same as 476: https://leetcode.com/problems/number-complement/
 */
+
+namespace P1009
+{
+    class Solution {
+    public:
+        int bitwiseComplement(int N) {
+            int res = 0;
+            int loc = 0;
+            if (N == 0) return 1;
+            while (N) {
+                bool digit = N & 1;
+                res += !digit << (loc++);
+                N = N >> 1;
+            }
+            return res;
+        }
+    };
+}

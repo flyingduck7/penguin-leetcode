@@ -1,39 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
+    <Filter Include="Challenge">
+      <UniqueIdentifier>{4bf4ac46-7170-4bf6-ba08-43eb8b3cacd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Challenge\202005">
+      <UniqueIdentifier>{50f009b3-df40-41ea-bbfa-f8efd7ddde7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problems">
+      <UniqueIdentifier>{f656c959-870a-41d0-a692-7bc703ac10cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problems\P0001_P0100">
+      <UniqueIdentifier>{34ae2879-529f-4d89-9a16-479512be9938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problems\P1001_P1100">
+      <UniqueIdentifier>{9b9a708e-7547-409f-865e-113e3eaccd83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="헤더 파일">
+    <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="리소스 파일">
+    <Filter Include="Resources">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Problems\P0001_P0100\P0007.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Problems\P0001_P0100\P0008.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Problems\P1001_P1100\P1009.hpp">
-      <Filter>헤더 파일</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Challenge\202005\2020_05_W1_04.hpp">
-      <Filter>헤더 파일</Filter>
+      <Filter>Challenge\202005</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\P1001_P1100\P1009.hpp">
+      <Filter>Problems\P0001_P0100</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\P0001_P0100\P0008.hpp">
+      <Filter>Problems\P1001_P1100</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\P0001_P0100\P0007.hpp">
+      <Filter>Problems\P1001_P1100</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenge\202005\2020_05_W1_01.hpp">
+      <Filter>Challenge\202005</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
