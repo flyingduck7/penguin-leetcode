@@ -4,9 +4,6 @@
     <Filter Include="Challenge">
       <UniqueIdentifier>{4bf4ac46-7170-4bf6-ba08-43eb8b3cacd9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Challenge\202005">
-      <UniqueIdentifier>{50f009b3-df40-41ea-bbfa-f8efd7ddde7c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Problems">
       <UniqueIdentifier>{f656c959-870a-41d0-a692-7bc703ac10cc}</UniqueIdentifier>
     </Filter>
@@ -27,6 +24,12 @@
     <Filter Include="Resources">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Challenge\202004">
+      <UniqueIdentifier>{351ca86d-1256-4eb4-92ba-ff5b93c75993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Challenge\202005">
+      <UniqueIdentifier>{50f009b3-df40-41ea-bbfa-f8efd7ddde7c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +61,24 @@
     </ClInclude>
     <ClInclude Include="Challenge\202005\2020_05_W1_03.hpp">
       <Filter>Challenge\202005</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenge\202005\2020_05_W1_05.hpp">
+      <Filter>Challenge\202005</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenge\202004\2020_04_W1_03.hpp">
+      <Filter>Challenge\202004</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenge\202004\2020_04_W1_04.hpp">
+      <Filter>Challenge\202004</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenge\202004\2020_04_W1_05.hpp">
+      <Filter>Challenge\202004</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenge\202004\2020_04_W1_01.hpp">
+      <Filter>Challenge\202004</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenge\202004\2020_04_W1_02.hpp">
+      <Filter>Challenge\202004</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
