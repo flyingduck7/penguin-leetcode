@@ -151,6 +151,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Challenge\202005\2020_05_W1_01.hpp" />
+    <ClInclude Include="Challenge\202005\2020_05_W1_02.hpp" />
+    <ClInclude Include="Challenge\202005\2020_05_W1_03.hpp" />
     <ClInclude Include="Challenge\202005\2020_05_W1_04.hpp" />
     <ClInclude Include="common.h" />
     <ClInclude Include="Problems\P0001_P0100\P0007.hpp" />

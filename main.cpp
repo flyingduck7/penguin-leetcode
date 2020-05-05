@@ -1,13 +1,13 @@
 #include <iostream>
-#include "Challenge/202005/2020_05_W1_01.hpp"
+#include "Challenge/202005/2020_05_W1_03.hpp"
 
-using namespace C2005_W1_P01;
+using namespace C2005_W1_P03;
 
 int main()
 {
-    C2005_W1_P01::Solution test;
+    C2005_W1_P03::Solution test;
 
-    test.firstBadVersion(5);
+    test.canConstruct("aa", "aab");
 
 
     return 0;

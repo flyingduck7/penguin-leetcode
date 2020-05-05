@@ -53,5 +53,11 @@
     <ClInclude Include="Challenge\202005\2020_05_W1_01.hpp">
       <Filter>Challenge\202005</Filter>
     </ClInclude>
+    <ClInclude Include="Challenge\202005\2020_05_W1_02.hpp">
+      <Filter>Challenge\202005</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenge\202005\2020_05_W1_03.hpp">
+      <Filter>Challenge\202005</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
